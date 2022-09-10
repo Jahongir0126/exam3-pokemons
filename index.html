@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemons</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <img class="logo" src="./img/pokemon_logo 1.png" alt="logo">
+            <form class="form d-flex col-10 mt-5 ms-5">
+                <select class="form-select me-2 me-md-5 ms-5" >
+                    <option value="1">Grass</option>
+                    <option value="2">Poison</option>
+                    <option value="3">Fire</option>
+                </select>
+                <input class="form-control me-2 me-md-5" type="text" placeholder="Search">
+                <select class="form-select me-2 me-md-5 ">
+                    <option value="">Aa-Zz</option>
+                    <option value="">Zz-Aa</option>
+                </select>
+                <button class="btn btn-success" type="submit"> Searching</button>
+             
+            </form>
+        </div>
+
+
+        <div class="row g-3 mt-4 pokemon-list ms-5">
+            No cards
+        </div>
+    </div>
+
+
+    <script src="./js/pokemon.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

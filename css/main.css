@@ -1,0 +1,60 @@
+@font-face {
+    font-weight: 500;
+    font-style: normal;
+    font-family: 'Roboto';
+    src: url(../fonts/roboto-v30-latin-500.ttf);
+}
+@font-face {
+    font-weight: 700;
+    font-style: normal;
+    font-family: 'Roboto';
+    src: url(../fonts/roboto-v30-latin-700.ttf);
+}
+
+body{
+    background-color:#FFD845;
+    
+}
+.logo{
+    margin: 0 auto;
+    width: 610px;
+    padding: 0;
+}
+.card{
+    width: 298px;
+    height: 418px;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    
+}
+.card-body{
+    border-top: 2px solid #000000; 
+
+}
+.card img{
+    display: inline-block;
+    width: 157px;
+    height: 157px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 68px;
+
+}
+.pokemonTitle{
+    margin-top: 0px;
+    font-weight: 700;
+    font-style: normal;
+    font-family: 'Roboto';
+}
+.pokemontype{
+    font-weight: 500;
+    font-style: normal;
+    font-family: 'Roboto';
+}
+.pokemontype div{
+    margin-top: 25px;
+    font-weight: 700;
+    font-style: normal;
+    font-family: 'Roboto';
+}
